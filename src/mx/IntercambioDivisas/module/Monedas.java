@@ -3,7 +3,8 @@ package mx.IntercambioDivisas.module;
 import javax.swing.JOptionPane;
 
 public class Monedas {
-
+	
+	int x=0;
 	static void conversor(double valor) {
 
 		String menu2 = JOptionPane.showInputDialog(null, "Elija divisas a cambiar", "Menu",
@@ -16,7 +17,8 @@ public class Monedas {
 		case "pesos a dolar":
 			monedas.ConvertirPesosDolar(valor);
 			break;
-
+				// simon perros
+			
 		case "pesos a euro":
 			monedas.ConvertirPesosEuro(valor);
 			break;
